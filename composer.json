@@ -1,7 +1,7 @@
 {
   "name": "kwan/think-twig",
   "description": "ThinkPHP3.2.x twig模板引擎",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
