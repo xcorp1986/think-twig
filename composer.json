@@ -1,12 +1,12 @@
 {
-  "name": "snowair/think-twig",
-  "description": "ThinkPHP3.2 twig模板引擎",
+  "name": "kwan/think-twig",
+  "description": "ThinkPHP3.2.x twig模板引擎",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
-      "name": "朱亚杰",
-      "email": "xcoolcc@gmail.com"
+      "name": "Kwan",
+      "email": "303198069@qq.com"
     }
   ],
   "require": {

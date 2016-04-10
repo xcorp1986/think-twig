@@ -2,8 +2,8 @@
 
 namespace Think\Template\Driver;
 
-use Think\View;
 use Think\Think;
+use Think\View;
 
 /**
  * Twig模板引擎驱动
@@ -23,8 +23,8 @@ class Twig
             /* @var \Twig_Loader_Filesystem */
             $loader = new \Twig_Loader_Filesystem(array_filter(array(THEME_PATH)));
             self::$instance = new \Twig_Environment($loader, array(
-                'debug' => APP_DEBUG,
-                'strict_variables' => APP_DEBUG,
+                'debug' => APP_DEBUG ? 1 : 0,
+                'strict_variables' => APP_DEBUG ? 1 : 0,
                 'cache' => CACHE_PATH . DIRECTORY_SEPARATOR . MODULE_NAME
             ));
         }

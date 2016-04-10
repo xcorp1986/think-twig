@@ -2,6 +2,7 @@
 ========
 
 ThinkPHP3.2.x Twig模板引擎
+fork from https://github.com/snowair/think-twig
 ###### update
 * 2016-04-11   更改缓存目录，修复一些拼写问题，完善注释etc
 
@@ -11,7 +12,7 @@ ThinkPHP3.2.x Twig模板引擎
 [composer中文文档](http://www.kancloud.cn/thinkphp/composer)
 
 ```
-composer require snowair/think-twig:dev-master
+composer require kwan/think-twig:dev-master
 ```
 
 引擎配置
