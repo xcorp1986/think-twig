@@ -25,7 +25,7 @@ class Twig
             self::$instance = new \Twig_Environment($loader, array(
                 'debug' => APP_DEBUG ? 1 : 0,
                 'strict_variables' => APP_DEBUG ? 1 : 0,
-                'cache' => CACHE_PATH . DIRECTORY_SEPARATOR . MODULE_NAME
+                'cache' => CACHE_PATH . DIRECTORY_SEPARATOR . MODULE_NAME.DIRECTORY_SEPARATOR.ACTION_NAME
             ));
         }
         return self::$instance;
