@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Think\\Template\\Driver": "src"
+      "Think\\Template\\Driver\\": "src"
     }
   },
   "repositories": {
