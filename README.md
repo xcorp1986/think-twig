@@ -12,7 +12,7 @@ fork from https://github.com/snowair/think-twig
 [composer中文文档](http://www.kancloud.cn/thinkphp/composer)
 
 ```
-composer require kwan/think-twig:dev-master
+composer require cheukpang/think-twig
 ```
 
 引擎配置

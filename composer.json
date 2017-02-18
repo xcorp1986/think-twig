@@ -1,8 +1,13 @@
 {
-  "name": "kwan/think-twig",
+  "name": "cheukpang/think-twig",
   "description": "ThinkPHP3.2.x twig模板引擎",
+  "keywords": [
+    "ThinkPHP",
+    "Twig",
+    "template port"
+  ],
   "minimum-stability": "dev",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Kwan",
@@ -10,9 +15,18 @@
     }
   ],
   "require": {
-    "twig/twig": "^1.21"
+    "twig/twig": "^1.21",
+    "cheukpang/next-think": "dev-master"
   },
   "autoload": {
-    "files": ["Twig.class.php"]
+    "psr-4": {
+      "Think\\Template\\Driver": "src"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
   }
 }
